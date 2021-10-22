@@ -57,28 +57,54 @@ skillsHeader.forEach((el) => {
 const   tabs = document.querySelectorAll('[data-target]'),
         tabContents = document.querySelectorAll('[data-content]')
 
-console.log(tabs)
 
 tabs.forEach(tab => {
+    /* Cria um evento click em cada uma das tabs */
     tab.addEventListener('click', () => {
+
+        /* Selecioina a lista respeciva da tab que foi clicada (#education ou #work) */
         const target = document.querySelector(tab.dataset.target)
 
+        /* remove de todas as listas o active */
         tabContents.forEach(tabContent => {
             tabContent.classList.remove('qualification__active')
         })
 
+        /* Adiciona na lista que foi clica o active  */
         target.classList.add('qualification__active')
 
-        tab.forEach(tab =>{
-            tab.classList.remove('Qualification__active')
+        /* remove de todas as tab o active */
+        tabs.forEach(tab =>{
+            tab.classList.remove('qualification__active')
         })
 
+        /* Adiciona na tab clica o active */
         tab.classList.add('qualification__active')
     })
 })
 
 /*==================== SERVICES MODAL ====================*/
+const   modalViews = document.querySelectorAll('.services__modal'), /* Todos os modais */
+        modalBtns = document.querySelectorAll('.services__button'), /* Todos botoes de abrir os modais */
+        modalCloses = document.querySelectorAll('.services__modal-close') /* todos os botões de fechar os modais */
 
+let modal = function(modalclick){
+    modalViews[modalclick].classList.add('active-modal')
+}
+
+modalBtns.forEach((modalBtn, i) =>{
+    modalBtn.addEventListener('click', () =>{
+        modal(i);
+    })
+})
+
+modalCloses.forEach(modalCLose =>{
+    modalCLose.addEventListener('click',()=>{
+        modalViews.forEach(modalView =>{
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 
