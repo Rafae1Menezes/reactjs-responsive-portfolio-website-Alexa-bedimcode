@@ -12,7 +12,7 @@
       />
 
       <!--==================== SWIPER CSS ====================-->
-      <link rel="stylesheet" href="" />
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
       <!--==================== CSS ====================-->
       <link rel="stylesheet" href="assets/css/styles.css" />
@@ -609,7 +609,12 @@
                      </h3>
                   </div>
 
-                  <span class="button button--flex button--small button--link services__button">
+                  <span
+                     class="
+                        button button--flex button--small button--link
+                        services__button
+                     "
+                  >
                      View more
                      <i class="uil uil-arrow-right button__icon"></i>
                   </span>
@@ -677,7 +682,12 @@
                      </h3>
                   </div>
 
-                  <span class="button button--flex button--small button--link services__button">
+                  <span
+                     class="
+                        button button--flex button--small button--link
+                        services__button
+                     "
+                  >
                      View more
                      <i class="uil uil-arrow-right button__icon"></i>
                   </span>
@@ -692,7 +702,12 @@
 
                         <ul class="services__modal-services grid">
                            <li class="services__modal-service">
-                              <i class="uil uil-check-circle services__modal-icon"></i>
+                              <i
+                                 class="
+                                    uil uil-check-circle
+                                    services__modal-icon
+                                 "
+                              ></i>
                               <p>I develop the user interface.</p>
                            </li>
 
@@ -741,7 +756,11 @@
                   </div>
 
                   <span
-                     class="button button--flex button--small button--link services__button">
+                     class="
+                        button button--flex button--small button--link
+                        services__button
+                     "
+                  >
                      View more
                      <i class="uil uil-arrow-right button__icon"></i>
                   </span>
@@ -802,7 +821,81 @@
          </section>
 
          <!--==================== PORTFOLIO ====================-->
-         <section class="portfolio section" id="portfolio"></section>
+         <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container swiper">
+               <div class="swiper-wrapper">
+                  <!--==================== PORTFOLIO 1 ====================-->
+                  <div class="portfolio__content grid swiper-slide">
+                     <img
+                        src="assets/img/portfolio1.jpg"
+                        alt=""
+                        class="portfolio__img"
+                     />
+
+                     <div class="portfolio__data">
+                        <h3 class="portfolio__title">Modern Website</h3>
+                        <p class="portfolio__description">
+                           Website adaptable to all devices, with ui components
+                           and animated interactions.
+                        </p>
+                        <a href="" class="button button--flex button--small portfolio__button">
+                           Demo
+                           <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                     </div>
+                  </div>
+                  
+                  <!--==================== PORTFOLIO 2 ====================-->
+                  <div class="portfolio__content grid swiper-slide">
+                     <img
+                        src="assets/img/portfolio2.jpg"
+                        alt=""
+                        class="portfolio__img"
+                     />
+
+                     <div class="portfolio__data">
+                        <h3 class="portfolio__title">Brand Design</h3>
+                        <p class="portfolio__description">
+                           Website adaptable to all devices, with ui components
+                           and animated interactions.
+                        </p>
+                        <a href="" class="button button--flex button--small portfolio__button">
+                           Demo
+                           <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                     </div>
+                  </div>
+
+                  <!--==================== PORTFOLIO 3 ====================-->
+                  <div class="portfolio__content grid swiper-slide">
+                     <img
+                        src="assets/img/portfolio3.jpg"
+                        alt=""
+                        class="portfolio__img"
+                     />
+
+                     <div class="portfolio__data">
+                        <h3 class="portfolio__title">Online Store</h3>
+                        <p class="portfolio__description">
+                           Website adaptable to all devices, with ui components
+                           and animated interactions.
+                        </p>
+                        <a href="" class="button button--flex button--small portfolio__button">
+                           Demo
+                           <i class="uil uil-arrow-right button__icon"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-pagination"></div>
+            </div>
+         </section>
 
          <!--==================== PROJECT IN MIND ====================-->
          <section class="project section"></section>
@@ -820,7 +913,8 @@
       <!--==================== SCROLL TOP ====================-->
 
       <!--==================== SWIPER JS ====================-->
-      <script src=""></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
       <!--==================== MAIN JS ====================-->
       <script src="assets/js/main.js"></script>
