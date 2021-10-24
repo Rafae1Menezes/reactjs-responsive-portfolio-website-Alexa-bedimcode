@@ -339,6 +339,15 @@ img {
    transition: 0.3s;
 }
 
+.button--white{
+   background-color: #FFF;
+   color: var(--first-color);
+}
+
+.button--white:hover{
+   background-color: #FFF;
+}
+
 .button--flex {
    display: inline-flex;
    align-items: center;
@@ -713,12 +722,13 @@ img {
    justify-self: center;
 }
 
-.portoflio__title{
+
+.portfolio__title{
    font-size: var(--h3-font-size);
    margin-bottom: var(--mb-0-5);
 }
 
-.portofolio_description{
+.portfolio__description{
    margin-bottom: var(--mb-0-75);
 }
 
@@ -726,9 +736,68 @@ img {
    transform: translateX(.25rem);
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after{
+   content: '';
+}
 
+
+.swiper-portfolio-icon{
+   font-size: 2rem;
+   color: var(--first-color);
+}
+
+.swiper-button-prev{ 
+   left: -.5rem;
+}
+.swiper-button-next{
+   right: -.5rem;
+}
+
+.mySwiper > .swiper-pagination{ 
+   bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active{
+   background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination{
+   outline: none;
+}
 
 /*==================== PROJECT IN MIND ====================*/
+.project{
+   text-align: center;
+}
+
+.project__bg{
+   background-color: var(--first-color-second);
+   padding-top: 3rem;
+}
+
+.project__title{
+   font-size: var(--h2-font-size);
+   margin-bottom: var(--mb-0-75);
+}
+
+
+.project__description{
+   margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description{
+   color: #FFF;
+}
+
+.project__img{
+   width: 232px;
+   justify-self: center;
+}
+
 
 /*==================== TESTIMONIAL ====================*/
 
