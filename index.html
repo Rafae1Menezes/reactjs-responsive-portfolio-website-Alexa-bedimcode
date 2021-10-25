@@ -28,7 +28,7 @@
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list grid">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link">
+                     <a href="#home" class="nav__link active__link">
                         <i class="uil uil-estate nav__icon"></i> Home
                      </a>
                   </li>
@@ -62,6 +62,9 @@
             </div>
 
             <div class="nav__btns">
+               <!-- Theme change button -->
+               <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                <div class="nav__toggle" id="nav-toggle">
                   <i class="uil uil-apps"></i>
                </div>
@@ -620,7 +623,7 @@
                   </span>
 
                   <div class="services__modal">
-                     <div class="services__modal-content">
+                     <div class="fproject__bg">
                         <h4 class="services__modal-title">
                            Ui/Ux <br />
                            Designer
@@ -904,7 +907,7 @@
          <!--==================== PROJECT IN MIND ====================-->
          <section class="project section">
             <div class="project__bg">
-               <div class="projetct__container container grid">
+               <div class="project__container container grid">
                   <div class="project__data">
                      <h2 class="project__title">You have a new project</h2>
                      <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
@@ -1115,6 +1118,9 @@
       </footer>
 
       <!--==================== SCROLL TOP ====================-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="uil uil-arrow-up scrollup__icon"></i>
+      </a>
 
       <!--==================== SWIPER JS ====================-->
       <script src="assets/js/swiper-bundle.min.js"></script>
