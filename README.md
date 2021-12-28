@@ -3,9 +3,9 @@
 ## :earth_americas: Demo Online: 
 Acesse: [Portifólio Alexa](https://rafae1menezes.github.io/responsive-portfolio-website-Alexa-bedimcode/)
 
-## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
+## [Assista esse curso no youtube](https://youtu.be/27JtRAI3QO8)
 ### Responsive Portfolio Website Alexa
-Responsive Portfolio Website Using Html, Css and JavaScript, With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer.
-Don't forget to join the channel for more videos like this. [Bedimcode](https://www.youtube.com/c/Bedimcode)
+Esse é um portifólio responsivo, usndo HTML, CSS e JavaScript. COm uma bela inteface de usuário. 
+Contem, Header, Home, About Skills, Qualification, Services, Protfolio, Projet in mind, Testimonial, Ontact and Footer
 
-![Resume cv](/preview.png)
+O curso visa explorar a estilização e responsividade de forma profissional.
