@@ -9,3 +9,6 @@ Esse é um portifólio responsivo, usndo HTML, CSS e JavaScript. COm uma bela in
 Contem, Header, Home, About Skills, Qualification, Services, Protfolio, Projet in mind, Testimonial, Ontact and Footer
 
 O curso visa explorar a estilização e responsividade de forma profissional.
+
+![image](https://user-images.githubusercontent.com/89926211/147610998-8ba0cc80-9f54-4931-8c18-c539e4d35aae.png)
+
