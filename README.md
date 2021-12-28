@@ -1,6 +1,7 @@
 # Responsive Portfolio Website Alexa
 
-[Acesse](https://rafae1menezes.github.io/responsive-portfolio-website-Alexa-bedimcode/)
+## :earth_americas: Demo Online: 
+Acesse: [Portifólio Alexa](https://rafae1menezes.github.io/responsive-portfolio-website-Alexa-bedimcode/)
 
 ## [Watch it on youtube](https://youtu.be/27JtRAI3QO8)
 ### Responsive Portfolio Website Alexa
